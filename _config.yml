@@ -12,3 +12,6 @@ lsi: false
 safe: true
 highlighter: rouge
 incremental: false
+gems:
+  - jemoji
+  - jekyll-sitemap
