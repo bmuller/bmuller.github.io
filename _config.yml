@@ -6,3 +6,5 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://findingscience.com"
 markdown: kramdown
 encoding: UTF-8
+sass:
+  style: compressed
