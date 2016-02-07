@@ -1,0 +1,7 @@
+---
+layout: post
+title: Version 0.6 of Apache mod_auth_openid Released
+date: 2010-12-11 12:00
+categories: [apache, mod_auth_openid project]
+---
+test
