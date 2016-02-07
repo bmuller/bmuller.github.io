@@ -1,20 +1,100 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{{ page.title }}</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto|Muli:400,400italic" rel="stylesheet" type="text/css">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://feeds.feedburner.com/FindingScience">
+    <link href="/css/stylesheet.css" type="text/css" rel="stylesheet" />
+    <link href="/css/syntax.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.timeago.js"></script>
+    <script type="text/javascript" src="/js/showoff.min.js"></script>
+    <script type="text/javascript" src="/js/finding.js"></script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19398875-1']);
+      _gaq.push(['_trackPageview']);
 
-  {% include head.html %}
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <meta property="og:site_name" content="FindingScience" />
+    <meta property="og:type" content="website" />
+    {% if page.image %}<meta property="og:image" content="http://findingscience.com{{ page.image }}" />{% else %}<meta property="og:image" content="http://findingscience.com/images/glider.jpg" />{% endif %}
+    <meta property="og:title" content="{{ page.title }}" />
 
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@bmuller"/>
+    <meta name="twitter:domain" content="FindingScience"/>
+    <meta name="twitter:creator" content="@bmuller"/>
+    {% if page.image %}<meta name="twitter:image:src" content="http://findingscience.com{{ page.image }}"/>{% else %}<meta name="twitter:image:src" content="http://findingscience.com/images/glider.jpg"/>{% endif %}
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:url" content="http://findingscience.com{{ page.url }}"/>
+  </head>
   <body>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div id="header">
+      <div id="menu">
+	<ul>
+	  <li><a href="https://github.com/bmuller" target="_BLANK">code</a></li>
+	  <li><a href="http://twitter.com/bmuller" target="_BLANK">@bmuller</a></li>
+	  <li><a href="/about.html">about</a></li>
+	</ul>
+      </div>      
+      <div><a href="/">Finding Science</a></div>
+      <div id="subheader">when I grow up I want to be a</div>
+      <script type="text/javascript">
+        var subs = ["data scientist", "professional spy", "computer scientist", "taxidermist", "professional bear hunter", "code artist", "mad scientist", "funerary violinist", "thereminist", "Juggalo impersonator", "standup comedian", "beat writer"];
+        document.getElementById("subheader").innerHTML = "when I grow up I want to be a <span style='color: #000;'>" + subs[Math.floor(Math.random() * subs.length)] + "</span>";
+      </script>
     </div>
+    <div id="content">
+      {{ content}}
+    </div>
+    <div id="footer">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+      </a>
+    </div>
+    <script type="text/javascript">
+      var disqus_shortname = 'findingscience';
+      (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.src = 'http://disqus.com/forums/findingscience/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
 
-    {% include footer.html %}
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
 
+_qevents.push({
+qacct:"p-duPTkrwesZLhc"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-duPTkrwesZLhc.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
   </body>
-
 </html>
