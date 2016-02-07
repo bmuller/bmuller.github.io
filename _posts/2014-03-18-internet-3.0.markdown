@@ -1,0 +1,35 @@
+---
+layout: post
+title: "The Internet, 3.0"
+date: 2014-03-18 10:45
+categories: [internet, the future]
+---
+So, you think you have a great idea for an online product?  Nice.  In the brave new world of the new Internet - the steps are easy:
+
+## Get a Permit
+Submit an application to the governance board.  You'll need a permit, so make sure you describe what the service is / will do in detail.  Also, you'll need to guarantee that you won't allow hateful language, harassment, or intimidation on your site.  Government issued photo id will, of course, be required.  Also, it's a big investment (you must purchase access for 5 year chunks at a time), so make sure your domain is a good one!  Finally, you should feel good that a huge chunk of the $10K you're paying for the domain is going to a [Universal Service Fund](http://en.wikipedia.org/wiki/Universal_Service_Fund) to help pay for internet infrastructure in remote regions of the world.
+
+## Find a Hosting Company
+If your application is approved, and the domain you requested isn't taken, then you'll be able to pay your fee and will be assigned the domain.  Here's where the fun begins!  You now need to choose a hosting provider.  Good news though!  You have lots of choices - Verizon or Comcast/Time Warner.  You could go with an independent host (like AWS) if you really want to, but they will tack on steep fees to cover their costs to connect to the ISPs.  Those fees, though, don't cover your actual bandwidth costs - just the rent that the ISP's charge so the tubes are actually connected to AWS.  The other problem is that there really aren't too many of them - the ISP's aren't very keen on the idea of letting AWS take away it's own cloud computing ([this already exists](http://www.verizonenterprise.com/us/solutions/dynamic-cloud/), no joke), so they try to recoup via "access charges" that are passed on to you the customer.
+
+Submit your domain ownership certifications along with your application and application fees.  Once you're accepted, you'll be online in no time!
+
+## Get Connected
+You now need to pick an ISP to provide access to your domain.  If you went with a ISP as a host already, then the decision has been made.  If you went with an independent hosting provider, the great news is that you have lots of choices!  You can choose from Verizon or Comcast/Time Warner.  Actually, your choice may be more limited, because ISP's really prefer exclusive contracts with their hosting providers, so that decision may have already been made for you too (wasn't that easy?).
+
+Submit your hosting provider's ID (HPID) along with your unniversal connection number (UCN) to the ISP, along with your access application and associated fees.  You'll need to select your bandwidth class (make sure you pick a big enough pipe - especially if you're idea is as great as you think!) and access period.  Be careful of overage fees if you end up with a huge burst of traffic - this is where the ISP makes a lot of their money (just like overage minutes on your phone bill) - but it's your fault for not choosing a high enough bandwidth class in the first place.  You'll also need to choose a delivery preference level - this is what affects connection speed and is based on the number of other clients in higher preference levels and the traffic they're getting.  With limited resources - it makes sense that sites that pay more should have less latency.
+
+Just select which contries you'd like to be able to access your site (some may be off-limits depending on the type of content you're providing), and you're almost done.
+
+If you want to serve up images, video, or sound - good news!  Your ISP has invested in some great media hosting services that you get to utilize (usage is mandatory for all "rich media assets").  Just make sure you picked a good bandwidth class and delivery preference level - media files can be big and really expensive to deliver.
+
+Finally - if you want to accept in-site payments, there's good news for that too!  Your ISP contract gives you the ability (requirement, really) to utilize some great payment gateway infrastructure.  There's a tiered fee structure, but you'll never pay more than 10% per transaction, and you'll never have to worry about complicated payment gateways.
+
+## Done!
+Finally, you're online!  Your site won't load as fast as Facebook's, but with your awesome idea, you may one day have enough money to kick that speed up a few tiers.
+
+The number of websites will, thankfully, shrink down to a manageable number.  Free content sites will be a thing of the past, but with publishing platforms available online (who better to host your content than the same service that delivers it?) you can find something within your price range.
+
+Some public service sites (non-profits, etc.) will get reduced tier access for free or small administrative costs (if this is you, just be warned that application approval times range between 6 months to 2 years).
+
+It's a brave new world, but if you follow these easy steps, your site will be online in no time.
