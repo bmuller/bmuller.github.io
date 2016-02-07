@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Testing, WTF</title>
+	<link rel="stylesheet" type="text/css" href="testingwtf.css" />
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/protovis-r3.2.js"></script>
+        <script src="lib/hash.js"></script>
+        <script src="lib/jstat-min-08fb5e8.js"></script>
+        <script src="lib/stats.js"></script>
+        <script src="lib/render.js"></script>
+        <script src="lib/app.js"></script>
+        <script src="lib/onload.js"></script>
+    </head>
+    <body>
+        <section class="toolkit">
+            <header class="section-one">
+                <h1>TESTING, WTF</h1>
+            </header>
+            <div class="section-two">
+                <form class="inputs">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Label</th>
+                                <th>Number of successes</th>
+                                <th>Number of trials</th>
+                            </tr>
+                        </thead>
+                        <tbody class="inputs-table">
+                            <tr class="input-row baseline-input-row">
+                                <td><input type="text" class="label-input" value="Baseline" required /></td>
+                                <td><input type="text" class="num-successes-input" required /></td>
+                                <td><input type="text" class="num-samples-input" required /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul class="options" style="display: none;">
+                        <li>Interval confidence level:
+                            <input type="text" class="interval-confidence-level" value="0.95" />
+                        </li>
+                        <li>Use multiple testing correction:
+                            <input type="checkbox" class="use-multiple-test-correction" checked />
+                        </li>
+                    </ul>
+		    <p>
+		      What's the smallest relative difference you care about?<br />
+		      <i>I.e., &quot;if it's not at least more than x% then I don't care.&quot;</i><br />
+		      <input type="text" class="smallest" id="smallest" />%
+		    </p>
+		    <p>
+		      <input type="checkbox" id="showall" value="0" onclick="$('.results').toggle(); $('.sresults').toggle(); $('.options').toggle()"/> I'm a statistical genius, show me the gritty details.
+		    </p>
+                    <p>
+                      <button type="submit" class="submit-button">Can I stop yet?</button>
+                    </p>
+                </form>
+            </div>
+	    <div id="simple"></div>
+            <div>
+              <div class="sresults" style="display: none;"></div>
+              <div class="results" style="display: none;"></div>
+            </div>
+        </section>
+        <iframe id="hidden-iframe" style="display: none;"></iframe>
+    </body>
+</html>
