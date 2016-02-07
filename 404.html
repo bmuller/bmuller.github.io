@@ -1,72 +1,59 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <title>Page not found</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Four Oh Four!</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto|Muli:400,400italic" rel="stylesheet" type="text/css">
     <link href="/favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://feeds.feedburner.com/FindingScience">
-    <link href="/css/stylesheet.css" type="text/css" rel="stylesheet" />
-    <link href="/css/syntax.css" type="text/css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Muli|Caudex&subset=latin&v2' rel='stylesheet' type='text/css'>
-    <!--<script type='text/javascript' src='http://opbanditcdn.s3.amazonaws.com/qaloader.js?key=36da5465ea4492e5'></script>-->
-    <!--<script type="text/javascript" src="//cdn.opbandit.com/loader.min.js?key=36da5465ea4492e5"></script>-->
+    <link href="/css/main.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.timeago.js"></script>
     <script type="text/javascript" src="/js/showoff.min.js"></script>
     <script type="text/javascript" src="/js/finding.js"></script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-19398875-1']);
       _gaq.push(['_trackPageview']);
-      
+
       (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <meta property="ob:experiment-group" content="Front Page" />
+    <meta property="og:site_name" content="FindingScience" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://findingscience.com/images/glider.jpg" />
+    <meta property="og:title" content="Welcome to Jekyll!" />
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@bmuller"/>
+    <meta name="twitter:domain" content="FindingScience"/>
+    <meta name="twitter:creator" content="@bmuller"/>
+    <meta name="twitter:image:src" content="http://findingscience.com/images/glider.jpg"/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:title" content="Welcome to Jekyll!"/>
+    <meta name="twitter:url" content="http://findingscience.com/jekyll/update/2016/02/07/welcome-to-jekyll.html"/>
   </head>
   <body>
-    <a href="http://github.com/bmuller"><img style="margin: 0px; position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
     <div id="header">
-      <div id="search">
-	<form>
-	  <input type="text" id="st-search-input" class="st-search-input" />
-	</form>
-	<div id="st-results-container"></div>
-	<script type="text/javascript">
-	  var Swiftype = window.Swiftype || {};
-	  (function() {
-	  Swiftype.key = 'uEYtzab81sHB5v4uxsL5';
-	  Swiftype.inputElement = '#st-search-input';
-	  Swiftype.resultContainingElement = '#st-results-container';
-	  Swiftype.attachElement = '#st-search-input';
-	  Swiftype.renderStyle = "overlay";
-	  
-	  var script = document.createElement('script');
-	  script.type = 'text/javascript';
-	  script.async = true;
-	  script.src = "//swiftype.com/embed.js";
-	  var entry = document.getElementsByTagName('script')[0];
-	  entry.parentNode.insertBefore(script, entry);
-	  }());
-	</script>
-      </div>
-      <div><a href="/">FindingScience</a></div>
-      <div id="subheader">when I grow up I want to be a</div>
-      <script type="text/javascript">
-        var subs = ["data scientist", "professional spy", "computer scientist", "taxidermist", "professional bear hunter", "code artist", "mad scientist", "funerary violinist", "thereminist", "Juggalo impersonator"];
-        document.getElementById("subheader").innerHTML = "when I grow up I want to be a <span style='color: #000;'>" + subs[Math.floor(Math.random() * subs.length)] + "</span>";
-      </script>
       <div id="menu">
 	<ul>
-	  <li><a href="http://moonshinedev.co" target="_blank">moonshine</a></li>
-	  <li><a href="/tags.html">tags</a></li>
-	  <li><a href="/projects.html">projects</a></li>
+	  <li><a href="https://github.com/bmuller" target="_BLANK">code</a></li>
+	  <li><a href="http://twitter.com/bmuller" target="_BLANK">@bmuller</a></li>
 	  <li><a href="/about.html">about</a></li>
-	  <li><a href="/archive.html">archive</a></li>
 	</ul>
-      </div>
+      </div>      
+      <div><a href="/">Finding Science</a></div>
+      <div id="subheader">when I grow up I want to be a</div>
+      <script type="text/javascript">
+        var subs = ["data scientist", "professional spy", "computer scientist", "taxidermist", "professional bear hunter", "code artist", "mad scientist", "funerary violinist", "thereminist", "Juggalo impersonator", "standup comedian", "beat writer"];
+        document.getElementById("subheader").innerHTML = "when I grow up I want to be a <span style='color: #000;'>" + subs[Math.floor(Math.random() * subs.length)] + "</span>";
+      </script>
     </div>
     <div id="content">
       <h1>Four Oh Four</h1>
@@ -78,8 +65,8 @@
       </div>
     </div>
     <div id="footer">
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-	<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" />
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
       </a>
     </div>
     <script type="text/javascript">

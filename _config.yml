@@ -8,3 +8,7 @@ markdown: kramdown
 encoding: UTF-8
 sass:
   style: compressed
+lsi: false
+safe: true
+highlighter: rouge
+incremental: false
