@@ -1,6 +1,7 @@
 title: FindingScience
 email: bamuller@gmail.com
 description: a blog about startup tech and gallimaufry
+author: Brian Muller
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://findingscience.com"
 markdown: kramdown
