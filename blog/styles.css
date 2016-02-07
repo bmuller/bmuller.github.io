@@ -1,0 +1,7 @@
+/* This is the StyleCatcher theme addition. Do not remove this block. */
+@import url(/mt-static/themes-base/blog.css);
+@import url(/mt-static/support/themes/streetlevellab/streetlevellab.css);
+.flickr_badge_image img {
+margin-right: 50px;
+}
+/* end StyleCatcher imports */

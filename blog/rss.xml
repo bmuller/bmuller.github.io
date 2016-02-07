@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Finding Science: The Blog</title>
+        <link>http://findingscience.com/blog/</link>
+        <description>Homicide: Life on the Bodymore, Murdaland streets</description>
+        <language>en-us</language>
+        <copyright>Copyright 2010</copyright>
+        <lastBuildDate>Fri, 26 Mar 2010 16:39:47 -0500</lastBuildDate>
+        <generator>http://www.sixapart.com/movabletype/</generator>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+        
+        <item>
+            <title>New Job, Digs, and Deck</title>
+            <description><![CDATA[There have been a few job switches over the last few months, and in continuance of that pattern I started a new job working as the webmaster for <a href="http://foreignpolicy.com/">Foreign Policy Magazine</a>.&nbsp; I think I'm going to be there to stay, though.&nbsp; The environment requires an insane amount of multitasking, which, incidentally, is just the way I like it.&nbsp; It does mean that I have a three hour commute each day to downtown Washington DC, but two of those three hours are on a train.&nbsp; I'm generally able to be productive during those times, especially since I have a MiFi device giving me access to the tubes wherever I am.&nbsp; The <br /><br />I also moved to a new apartment - this time in <a href="http://en.wikipedia.org/wiki/Bolton_Hill,_Baltimore">Bolton Hill</a>.&nbsp; It's a little on the small side, but includes an awesome back deck and roof area.&nbsp; There's also a nice park across the street, making it a bit easier now to walk my dog.&nbsp; Pics are below:<br /><br /><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><a href="http://findingscience.com/blog/img_4234.jpg"><img alt="img_4234.jpg" src="http://findingscience.com/blog/assets_c/2010/03/img_4234-thumb-300x200.jpg" class="mt-image-none" style="" height="200" width="300" /></a></span><br /><br /><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><a href="http://findingscience.com/blog/img_4235.jpg"><img alt="img_4235.jpg" src="http://findingscience.com/blog/assets_c/2010/03/img_4235-thumb-300x200.jpg" class="mt-image-none" style="" height="200" width="300" /></a></span><br /><br /><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><a href="http://findingscience.com/blog/apt_1.jpg/img_4231.jpg"><img alt="img_4231.jpg" src="http://findingscience.com/blog/assets_c/2010/03/img_4231-thumb-300x200.jpg" class="mt-image-left" style="margin: 0pt 20px 20px 0pt; float: left;" height="200" width="300" /></a></span><br /><div><br /></div><div><br /></div><div><br /></div><div><br /><br /><br /></div>]]></description>
+            <link>http://findingscience.com/blog/2010/03/new-job-digs-and-deck.html</link>
+            <guid>http://findingscience.com/blog/2010/03/new-job-digs-and-deck.html</guid>
+            
+            
+            <pubDate>Fri, 26 Mar 2010 16:39:47 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>A SaneR R</title>
+            <description><![CDATA[I've been working on a number of projects recently in <a href="http://www.r-project.org%22/">R</a> and find it fairly frustrating.  There's no way to modify a variable in a function (as in the case of languages that support closures).  This makes it especially hard for a language like R that has pretty good functional programming support.
+<br /><br />
+I'm currently working on a library to make R act more sanely (called SaneR -  I'll post again when I make it available online).&nbsp; One function that I've found quite useful lately is one I call "closure":<br /><br /><blockquote><font style="font-size: 1em;">closure &lt;- function(..., frame=3) {<br />&nbsp; parent &lt;- parent.frame()<br />&nbsp; frame &lt;- ifelse(frame=="sapply", 4, frame)<br />&nbsp; grandparent &lt;- sys.frame(sys.nframe()-frame)<br />&nbsp; for(name in c(...))<br />&nbsp;&nbsp;&nbsp; assign(name, get(name, envir=parent), envir=grandparent)<br />}</font><br /></blockquote>Using this function you can affect variables outside of a function's scope.&nbsp; For instance:<br /><br /><blockquote>x &lt;- 0<br />lapply(list(1,2,3,4,5), function(y) { <br />&nbsp;&nbsp; x &lt;- x + 1<br />&nbsp;&nbsp; message("Run number ", x)<br />&nbsp;&nbsp; closure("x")<br />&nbsp;&nbsp; print(y); <br />})<br />print(x)<br /><br /></blockquote>By calling <i>closure() </i>the variable x is set in the parent (actually, grandparent's) environment, meaning that by the time you reach the print statement x is 5.&nbsp; This is great for things like counters within lapply.&nbsp; <br /><br />Other things that are going into the SaneR packages are:<br /><ul><li>a doTimes like Ruby's &lt;int&gt;.times { } method that does something some number of times and returns the results (like calling a map function to an integer range)</li><li>A foreach that can handle lists sanely.&nbsp; For instance, if you want to do something for every name and value in a list, it takes more lines of code then it should.</li><li>A propper logging mechanism for long running tasks.&nbsp; A whole lot of R tasks take a while to run (R is slow).&nbsp; I'm writing a logging class that can print out the % complete for some task as well as an estimate to time of completion.</li><li>and more....</li></ul>If there are any more ideas out there, comment on this post.&nbsp; <blockquote><br /></blockquote><br /><br />]]></description>
+            <link>http://findingscience.com/blog/2010/01/a-saner-r.html</link>
+            <guid>http://findingscience.com/blog/2010/01/a-saner-r.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">R SaneR</category>
+            
+            <pubDate>Thu, 14 Jan 2010 11:23:09 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>New (Office) Digs</title>
+            <description><![CDATA[It now looks like I'll be defending a MS at <a href="http://musc.edu/">MUSC</a> on December 10 and hopefully transitioning into a PhD
+program at JHU (not sure which program yet) starting next fall.&nbsp; I've currently started working full time right now as a research
+assistant in the <a href="http://genomics.jhu.edu/">Center for Computational Genomics</a> at Johns Hopkins and am a part time MS student (in a full time program) in the <a href="http://www.cs.jhu.edu/">Computer Science department</a>.&nbsp; I quit my previous job a few months ago, and I've been surprised at what a change of environment can do to morale.&nbsp; For instance, compare these two pictures:<br />
+<a href="http://www.flickr.com/photos/bmuller/4073025217/"><img src="http://farm3.static.flickr.com/2514/4073025217_b006da8e31_m.jpg" /></a>
+<a href="http://www.flickr.com/photos/bmuller/4073032123/"><img src="http://farm3.static.flickr.com/2625/4073032123_6167b1d00e_m.jpg" /></a>
+<br />The first is a picture of the hallway at my most recent job.&nbsp; The building was old, damp, large, and mostly empty.&nbsp; It had a chilling effect on the soul (I think in large part due to how empty and fluorescent it was).&nbsp; Compare that with the second image, from my new office, where I work with an excellent view of downtown Baltimore (including the famous Key Bridge and Fell's Point).&nbsp; There is a ton of natural light and many collaborative areas with white boards, <a href="http://huyfong.com/frames/fr_sriracha.htm">cock sauce</a>, and free coffee.&nbsp; The pay is horrible compared to the first place - but the new environment is worth at least the difference.&nbsp; It is amazing how little I care about the difference in pay compared to how important I consider something simple like sunlight to be.&nbsp; I don't even mind working late to get this view:<br />&nbsp; <br />
+<a href="http://www.flickr.com/photos/bmuller/4073792332/"><img src="http://farm3.static.flickr.com/2480/4073792332_2089af757f_m.jpg" /></a><br />Hurrah for the new digs!<br />]]></description>
+            <link>http://findingscience.com/blog/2009/11/new-office-digs.html</link>
+            <guid>http://findingscience.com/blog/2009/11/new-office-digs.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">hopkins</category>
+            
+            <pubDate>Tue, 03 Nov 2009 19:43:17 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>Daily Reminder</title>
+            <description><![CDATA[ <span class="mt-enclosure mt-enclosure-image" style="display: inline;"><a href="http://www.flickr.com/photos/bmuller/3893491527/"><img alt="police.jpg" src="http://findingscience.com/blog/police.jpg" class="mt-image-left" style="margin: 0pt 20px 20px 0pt; float: left;" width="226" height="240" /></a></span>Crime is everywhere in this city - even right outside my front door. The police chased this guy down and then tazed him. No idea what he did, or why his pants are down.  <br /><br />It goes to show that even in what is considered to be one of the safest neighborhoods in Baltimore, there is still no escape from the crime that infects every street of this city.<br /><br />I'm amazed at how I've never seen any sort of police presence until <i>after</i> a crime is committed; then there's no shortage of swarming boys and girls in blue.&nbsp; I don't think I've ever seen an officer standing on a street corner or sitting at an intersection in their car.&nbsp; I have no idea what they do <i>before</i> a call goes out, but crime prevention based on a constant police presence does not seem to be something high on their list of things to do.<br /><br /><br /><div><br /></div>]]></description>
+            <link>http://findingscience.com/blog/2009/09/daily-reminder.html</link>
+            <guid>http://findingscience.com/blog/2009/09/daily-reminder.html</guid>
+            
+            
+            <pubDate>Sun, 06 Sep 2009 16:30:19 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>XMPP in Bioinformatics</title>
+            <description><![CDATA[Came across this paper today:
+<br /><a class="moz-txt-link-freetext" href="http://www.biomedcentral.com/1471-2105/10/279/abstract">http://www.biomedcentral.com/1471-2105/10/279/abstract</a>
+<br />
+<br />I'm pretty excited that there is anyone else in Bioinformatics that even knows what XMPP is. 
+&nbsp;As the amount of data that is transfered via networks to servers that 
+run processes (e.g., many methods being released today provide an API) increases, protocols like XMPP will need 
+to take over and leave HTTP based ones (SOAP, REST) in the dust.
+<br />
+<br />Hurrah!&nbsp; I'm excited.<br /><br />Also came across this article: <a href="http://www.ncbi.nlm.nih.gov/pubmed/10706945">http://www.ncbi.nlm.nih.gov/pubmed/10706945</a> - and all I can say is that I'm speechless.&nbsp; The trial participants must be quite....interesting...<br /><br />New pics of Baltimore / the new apt soon....<br />
+ ]]></description>
+            <link>http://findingscience.com/blog/2009/09/xmpp-in-bioinformatics.html</link>
+            <guid>http://findingscience.com/blog/2009/09/xmpp-in-bioinformatics.html</guid>
+            
+            
+            <pubDate>Fri, 04 Sep 2009 15:20:04 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>Baltimore: No More Naivety, or, Baltimore: Dichotomy Exemplified</title>
+            <description><![CDATA[Last night my girlfriend and I went to the inner harbor area of Baltimore for their weekly Sunday concert series.&nbsp; The area is primarily frequented by tourists and shoppers; it's generally considered to be the safest area of Baltimore.&nbsp; Halfway through the concert, the couple right in front of us became engaged during, of all things, a Van Morrison song.&nbsp; Shortly after the proposal, and resulting general applause from the rest of the small audience, the couple stood in an embrace and left.<br /><br />Within a few minutes I noticed a young (late teens) male and female running toward the small amphitheater.&nbsp; As they ran up the steps next to me and directly over the spot where the young couple had solidified their marital intent, I heard the female say "Keep moving - you've got to keep moving - that fucker shot you".&nbsp; That's the point at which I noticed the spurting blood coming from the male's arm and landing on my pants.&nbsp; After they ran past, I stood up, and after trying to figure out what it was I just saw, I walked in the direction they were running.&nbsp; I grabbed some gloves from a police officer and assisted another EMT who had just run up in controlling the bleeding (it was an arterial brachial bleed) and treating for shock.&nbsp; It took over 10 minutes for an ambulance to get there (we were a few blocks from two hospitals - no idea why it took so long).&nbsp; After transferring care and a report to the arriving EMTs (and taking a minute to scrub the blood off my body using the cleaning kit from the back of the ambulance) I heard that there was actually another patient that had just been picked up by another EMS unit who was shot by the same assailant.&nbsp; <br /><br />There was a police helicopter that was hovering overhead in no time instructing the running crowds to "leave the scene" and threatening to arrest anyone who stayed.&nbsp; In the report later, the police claim that they couldn't find the shooter "because of the chaos that ensued after the shots were fired" (see story <a href="http://www.baltimoresun.com/entertainment/dining/bal-md.shooting16aug16,0,5351277.story">here</a>).&nbsp; I imagine that has something to do with the police chasing all of the witnesses away with the threat of arrest.&nbsp; <br /><br />The officers who were there on scene when I got to the patient were fairly useless.&nbsp; It took numerous requests to one officer before she would even stand over me with a flashlight so I could see what I was doing.&nbsp; The other officers simply stood there and refused to assist us in controlling the scene.&nbsp; The female was encouraging the patient to keep running turned out to be his sister.&nbsp; She was literally screaming at us that we needed to get him some water and stop holding his feet down.&nbsp; The officers flatly refused to remove her so that we could work without distraction.&nbsp; <br /><br />This city has a homicide rate that is nearly seven times the national rate, six times the rate of New York City, and three times the rate of Los Angeles.&nbsp; The police commissioner for the city seems to either be oblivious or challenged when it comes to crime statistics.&nbsp; Two months ago he stated that the Inner Harbor and surrounding neighborhoods were safe.&nbsp; That was apparently his assessment after a few teens stabbed each other and there was a string of robberies.&nbsp; Perhaps he'll be a bit slower to make the same statement again.<br /><br />The mayor has just <a href="http://www.baltimoresun.com/news/maryland/politics/bal-md.ci.indict10jan10,0,2551581.story">been charged</a> with 12 counts of felony theft, perjury, fraud and misconduct in office.&nbsp; The police have no problem shooting a convenience store robber holding nothing but a screwdriver in the head, followed by a pair of paramedics who couldn't tell that he was moving and still alive.&nbsp; They left and went back to their station; the police apparently weren't as dense and figured out that movement likely indicated life and called the medics back (more <a href="http://www.baltimoresun.com/news/maryland/baltimore-city/bal-md.briefs030aug03,0,7945100.story">here</a> and <a href="http://www.baltimoresun.com/news/maryland/baltimore-city/bal-emts0804,0,2910362.story">here</a>).<br /><br />I'm amazed at how it is normal that on the same square foot of ground in this city a young, loving couple can become engaged and then ten minutes later that same spot be covered with the blood of a teenage boy.&nbsp; The <a href="http://www.baltimoresun.com/entertainment/dining/bal-harborshooting-wjzpage,0,2633542.htmlstory">clips from the news</a> seem to make it sound as though this isn't so much of an unusual occurrence in the "safest" area of the city.&nbsp; They seem to say that since the shootings were non-fatal it isn't that bad.&nbsp; I'm not sure I can ever get used to thinking that attempted homicide is somehow better than successful homicide.<br /><br />This city might take some getting used to.<br />]]></description>
+            <link>http://findingscience.com/blog/2009/08/baltimore-no-more-naivety-or-b.html</link>
+            <guid>http://findingscience.com/blog/2009/08/baltimore-no-more-naivety-or-b.html</guid>
+            
+            
+            <pubDate>Sun, 16 Aug 2009 12:56:41 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>First week in Baltimore</title>
+            <description><![CDATA[So, I'm now all moved in to Baltimore.&nbsp; Big city.&nbsp; I won't have inter
+tubes until Tuesday night, so in the meantime I'm drinking coffee and
+using tubes at a place a block away from my apartment -
+<a href="http://www.redemmas.org/">http://www.redemmas.org</a> - which is a commie/anarchist "<a href="http://www.redemmas.org/section/about/collectives/">worker-owned and
+collectively-managed</a>" bookstore/coffee shop.&nbsp; The conversational topics
+here are amazing, as I'm sure you can imagine.&nbsp; They basically go like:<br /><br /><blockquote>So, dude, like we should, like, totally just stop using money, and,
+like, start living on farms and like treating animals with respect.&nbsp;
+And everybody should have free healthcare, which we won't really need 'cause there won't be any McDonalds, and, like, college should be free.<br /></blockquote><blockquote>Totally dude, down with capitalist pigs and up with real pigs, man,
+like they're smart animals, man.&nbsp; I mean, like, society is totally
+screwed up, like fuck it, dude.<br /></blockquote>
+
+Of course, I then can only think of retorting in <a href="http://www.imdb.com/title/tt0118715/">Mr. Lebowski</a> style:<br /><blockquote>
+Sure!&nbsp; Fuck it!&nbsp; That's your answer!&nbsp; Tattoo it on your forehead!&nbsp;
+Your answer to everything!&nbsp; Your "revolution" is over, [smelly hippie]!&nbsp;
+Condolences!&nbsp; The bums lost!&nbsp; My advice is, do what your parents did!&nbsp;
+Get a job, sir!&nbsp; The bums will always lose-- do you hear me?!<br /></blockquote>
+<br />
+The coffee isn't bad, though, and the tubes are free.<br />]]></description>
+            <link>http://findingscience.com/blog/2009/08/first-week-in-baltimore.html</link>
+            <guid>http://findingscience.com/blog/2009/08/first-week-in-baltimore.html</guid>
+            
+            
+            <pubDate>Sat, 08 Aug 2009 11:25:53 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>JabTXT: A Jabber to SMS gateway</title>
+            <description><![CDATA[Just finished throwing together <a href="http://jabtxt.com/gateways.php">JabTXT</a>, which is a Jabber to SMS gateway (and vice versa).&nbsp; It provides a service that gives you the ability to send text (SMS)
+messages from jabber (XMPP) and vice versa. You can send a SMS text
+message from any jabber account to any phone number (see <a href="http://jabtxt.com/gateways.php">the supported gateways page</a>).  Also, you can send a Jabber message from any phone to an arbitrary Jabber account.<br /><br />This type of service is probably 4 years too late - but it doesn't exist yet and was a fun project to throw together.<br /> ]]></description>
+            <link>http://findingscience.com/blog/2009/07/jabtxt-a-jabber-to-sms-gateway.html</link>
+            <guid>http://findingscience.com/blog/2009/07/jabtxt-a-jabber-to-sms-gateway.html</guid>
+            
+            
+            <pubDate>Tue, 21 Jul 2009 12:33:49 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>Baltimore here I come...</title>
+            <description><![CDATA[Looks like I will be defending (for my MS in Bioinformatics) sometime in late July or early August, and then moving to Baltimore.  I'm looking for a job; there seems to be a lot of government tech work.  The problem is that it takes months to get a response back from them in terms of hiring.
+<br /><br />
+In other news, we at <a href="http://butterfat.net">Butterfat, LLC</a> just launched <a href="http://charlestonculture.com">CharlestonCulture.com</a>.  Our launch party was a lot of fun - see the video below:
+<br /><br />
+<object width="400" height="225"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=4702488&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=4702488&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="225"></embed></object><p><a href="http://vimeo.com/4702488">CharlestonCulture.com Launch Party</a> from <a href="http://vimeo.com/user1024930">Anthony Spencer</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+]]></description>
+            <link>http://findingscience.com/blog/2009/05/baltimore-here-i-come.html</link>
+            <guid>http://findingscience.com/blog/2009/05/baltimore-here-i-come.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">baltimore</category>
+            
+            <pubDate>Wed, 20 May 2009 14:07:46 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>Pymur 0.0 Released</title>
+            <description><![CDATA[Just finished putting together a <a href="http://python.org/">Python</a> interface to the <a href="http://www.lemurproject.org/">Lemur Toolkit</a> called <a href="http://projects.dbbe.musc.edu/trac/pymur">pymur</a>.&nbsp; There were a lot of forum postings by people looking to use Lemur from Python, but up until now no one wanted it badly enough to make an interface.&nbsp; The Lemur Toolkit is maintained by some folk at CMU, but even so it has a number of issues that make it a real PITA to link against with a new library.&nbsp; They have made every effort to make it as difficult as possible for anyone to write software that uses their library.&nbsp; For shame.&nbsp; Nonetheless, pymur should (for now) work fine on most linux distributions.<br />]]></description>
+            <link>http://findingscience.com/blog/2009/04/pymur-00-released.html</link>
+            <guid>http://findingscience.com/blog/2009/04/pymur-00-released.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">software</category>
+            
+            <pubDate>Wed, 08 Apr 2009 12:20:51 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>Charleston Kozlodranie League</title>
+            <description><![CDATA[ <img src="http://englishrussia.com/images/playing_rambo_games/18.jpg" />
+<br /><br />
+Anyone for a <a href="http://englishrussia.com/?p=1549">game of kozlodranie</a>?  It's basically a game of rugby but with a dead goat instead of a football.  It's played throughout Central Asia and is apparently quite popular.  I'm thinking of starting a league here in Charleston - any takers?
+<br /><br />
+<i>Photo &copy; <a href="http://englishrussia.com">http://englishrussia.com</a></i>]]></description>
+            <link>http://findingscience.com/blog/2009/02/charleston-kozlodranie-league.html</link>
+            <guid>http://findingscience.com/blog/2009/02/charleston-kozlodranie-league.html</guid>
+            
+            
+            <pubDate>Sun, 22 Feb 2009 23:01:42 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>SC Statehouse Trip</title>
+            <description><![CDATA[<a href="http://flickr.com/photos/bmuller/3292905103/"><img src="http://farm4.static.flickr.com/3550/3292905103_6524e627d7.jpg?v=0" /></a>
+<br /><br />
+Yesterday I had the pleasure of going to the SC statehouse to represent <a href="http://musc.edu">MUSC</a> as a member of the <a href="http://www2.edserv.musc.edu/scholars/scholars.htm">Presidential Scholars</a> group.  The idea was to meet with as many senators and representatives as possible to remind them of their financial duties to the university.  We were escorted throughout the day by three lobbyists all paid full time by the university (I have no idea how that works if tax money is used to sway the opinions of elected officials, not to mention the conflicts of interest involved in a state university paying the daughter of a state congressman to influence her father's friends...).  It was a pretty full day, with a complete schedule and lots of introductions (both to the whole senate and house, as well as individually).
+<br /><br />
+The most attractive and interesting part of the statehouse is the second floor lobby, in between the house and senate (shown in the picture above).  I was surprised at the number of people (mostly lobbyists) waiting all day long just to get a few minutes to talk to state congressmen (on a federal level, however, entirely understandable).  I asked one of our lobbyists where the smoke filled back room was where stuff really gets done, and she claimed they closed that room down a long time ago when they made smoking illegal in the building.  Oh well.
+<br /><br />
+We did meet briefly with Lt. Gov. Andre Bauer - I didn't get a chance to ask him if he could get <a href="http://en.wikipedia.org/wiki/Andr%C3%A9_Bauer#Speeding_controversy">me out of a recent parking ticket</a>.  Unfortunately, Mark, the big man himself, was too busy to meet with us.]]></description>
+            <link>http://findingscience.com/blog/2009/02/sc-statehouse-trip.html</link>
+            <guid>http://findingscience.com/blog/2009/02/sc-statehouse-trip.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">musc</category>
+            
+            <pubDate>Thu, 19 Feb 2009 15:34:09 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>More Pics</title>
+            <description><![CDATA[ I'm slowly but surely moving through my pics and posting ones worth saving on <a href="http://flickr.com/bmuller">flickr</a>.  Here are a few highlights so far...<br />
+<a href="http://flickr.com/photos/bmuller/3183364718/">
+<img src="http://farm4.static.flickr.com/3109/3183364718_08dd10248b.jpg?v=0" />
+</a>
+<br />
+<a href="http://flickr.com/photos/bmuller/3182481489/"><img src="http://farm4.static.flickr.com/3329/3182481489_ec2776c35c.jpg?v=0" /></a>
+
+<br /><a href="http://flickr.com/photos/bmuller/3188465964/"><img src="http://farm4.static.flickr.com/3536/3188465964_ce2f92cd91.jpg?v=0" /></a>
+
+<br /><a href="http://flickr.com/photos/bmuller/3182533433/"><img src="http://farm4.static.flickr.com/3110/3182533433_1febcb5d70.jpg?v=0" /></a>]]></description>
+            <link>http://findingscience.com/blog/2009/01/more-pics.html</link>
+            <guid>http://findingscience.com/blog/2009/01/more-pics.html</guid>
+            
+            
+            <pubDate>Sun, 11 Jan 2009 12:19:15 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>Napoli</title>
+            <description><![CDATA[I just finished my second day in Naples.&nbsp; This town is quite the anti-Toronto.&nbsp; There is trash everywhere, an active mob, rampant petty crime, and a city plan that apparently called for only dark cramped alley ways rather than any large, well-lit thoroughfares.&nbsp; <br /><br />The hostel is great, though - quite clean and trendy.&nbsp; Plus they have movies.&nbsp; Naturally, I'm watching Casino.&nbsp; The only problem is the tubes speed is crap - so it might be a while before I can upload the rest of the Rome pictures.<br /><br />I went on a day trip to Pompeii today and had a great time.&nbsp; There were even a few bodies frozen in time in their homes.&nbsp; Kind of creepy, but apparently most people left within 12 hours of the initial eruption of Vesuvius and only the dumbasses stayed behind.&nbsp; Speaking of which, it is long overdue for another eruption.&nbsp; Comforting.<br /> ]]></description>
+            <link>http://findingscience.com/blog/2008/12/napoli.html</link>
+            <guid>http://findingscience.com/blog/2008/12/napoli.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">italy</category>
+            
+            <pubDate>Sat, 27 Dec 2008 12:39:04 -0500</pubDate>
+        </item>
+        
+        <item>
+            <title>Mass with the Pope</title>
+            <description><![CDATA[ I spent today (second day in Roma) trying to hit all of the historical sites that I could - these included the Vatican (as well as the Basilica of St. Peter), the Imperial Forum, the Pantheon, the coliseum, and a bunch of famous fountains.  I just got back from midnight Christmas mass held by the pope at St. Peter's Basilica.  It was amazingly beautiful and quite an experience.
+<br /><br />
+I finished posting pics from the last two days <a href="http://flickr.com/bmuller">on flickr</a> - todays pics will have to wait until I have more time.  Some choice ones from Malaga are below (as well as one from Roma).
+<br /><br />
+<a href="http://flickr.com/photos/bmuller/3134551026/"><img src="http://farm4.static.flickr.com/3108/3134551026_8f6a49eedb.jpg?v=0" /></a><br /><br />
+
+<a href="http://flickr.com/photos/bmuller/3134571530/"><img src="http://farm4.static.flickr.com/3093/3134571530_71dae8a99b.jpg?v=0" /></a><br /><br />
+<a href="http://flickr.com/photos/bmuller/3134595574/"><img src="http://farm4.static.flickr.com/3291/3134595574_d0fae56d75.jpg?v=0" /></a><br /><br />
+]]></description>
+            <link>http://findingscience.com/blog/2008/12/mass-with-the-pope.html</link>
+            <guid>http://findingscience.com/blog/2008/12/mass-with-the-pope.html</guid>
+            
+            
+                <category domain="http://www.sixapart.com/ns/types#tag">italy</category>
+            
+            <pubDate>Wed, 24 Dec 2008 20:58:44 -0500</pubDate>
+        </item>
+        
+    </channel>
+</rss>

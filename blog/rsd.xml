@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>Movable Type 4.2</engineName>
+<engineLink>http://www.sixapart.com/movabletype/</engineLink>
+<homePageLink>http://findingscience.com/blog/</homePageLink>
+<apis>
+<api name="MetaWeblog" preferred="true" apiLink="http://findingscience.com/mt/mt-xmlrpc.cgi" blogID="5" />
+<api name="MovableType" preferred="false" apiLink="http://findingscience.com/mt/mt-xmlrpc.cgi" blogID="5" />
+<api name="Blogger" preferred="false" apiLink="http://findingscience.com/mt/mt-xmlrpc.cgi" blogID="5" />
+<api name="Atom" preferred="false" apiLink="http://findingscience.com/mt/mt-atom.cgi/weblog" blogID="5" />
+</apis>
+</service>
+</rsd>
