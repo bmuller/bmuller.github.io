@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Getting Wiser"
+date: 2016-04-26 14:28
+categories: [deep thoughts, off grid, media, wiser]
+image: /images/2016/ny.jpg
+---
+My [three month stint in East Africa]({% post_url 2016-02-06-going-off-grid %}) is now complete, and I'm finally back in the NY!  It was an incredible experience getting to know the extraordinary people and business of [Off Grid Electric](http://offgrid-electric.com/){:target="_blank"}, especially those folks in [Arusha, Tanzania](http://mpower.co.tz/){:target="_blank"}.  The data team there accomplished a monumental amount of work in a short period, and I'm proud to have been a part of team (if even for a short while).
+
+I learned a lot in my short time living in Tanzania.  The people are exceptionally friendly, so much so that even strangers are "brother" (_kaka_) or "sister" (_dada_) rather than the US vernacular of "hey you" or "yo".  People are so welcoming that you can walk up to any stranger's house and within seconds they will appear with seats and offers of tea, even before they know why you're standing in their front yard.  While it's structure is clearly patriarchal, Tanzanian society seemed (in my admittedly brief and limited experience) to be almost devoid of friction based on race, tribe, or religion.  People seemed much less stressed out in general; everything was _[hamna shida](https://translate.google.com/#sw/en/hamna%20shida){:target="_blank"}_.  It was tough leaving the new friends and coworkers, but overall it feels good to be home.
+
+Now that I'm back in the US it's time for my next challenge, which I'm happy to say involves a return to the publishing world.  I met the folks at [Wiser](http://getwiser.com){:target="_blank"} (back when they were known as Delve News) in the NY Times [timeSpace](http://www.nytimes.com/timespace/) incubator a few years ago with OpBandit, and I've been impressed with their product (and ability to sell to top notch customers) since then.  They provide personalized article recommendations for professionals - both online and in a daily email digest.  There's a ton of opportunity that still exists in the content recommendation space, and I'm super excited to be joining their team as CTO to help take advantage of that potential.  I'll be overseeing engineering and data science efforts to continue to expand the product and make the existing content recommendations even better.  On to the next adventure!

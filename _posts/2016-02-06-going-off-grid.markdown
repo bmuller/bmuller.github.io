@@ -3,7 +3,7 @@ layout: post
 title: "Going Off Grid"
 date: 2016-02-06 11:28
 categories: [deep thoughts, off grid, media]
-image: /images/Giraffes_Arusha_Tanzania.jpg
+image: /images/2016/Giraffes_Arusha_Tanzania.jpg
 image_credit: via <a href="https://commons.wikimedia.org/wiki/File:Giraffes_Arusha_Tanzania.jpg">Geir Kiste</a>
 ---
 Since I [joined Vox Media back in April in the OpBandit acquisition](/opbandit/deep%20thoughts/2015/04/05/opbandit:-an-exit.html), Vox has [raised a little money](http://www.nytimes.com/2015/08/13/business/media/nbcuniversal-invests-200-million-in-vox-media.html){:target="_blank"}, [acquired Re/code](http://www.nytimes.com/2015/05/27/business/media/vox-media-acquiring-recode.html){:target="_blank"}, and [turned into a unicorn 🦄](http://fortune.com/2015/08/12/vox-media-comcast-nbcu-unicorn/){:target="_blank"}.  Over the last 10 months, I've had the pleasure of working with some of the [best and most talented people](http://product.voxmedia.com/team){:target="_blank"} in the publishing space.  It has been an amazing experience, and I'm very grateful to [Trei Brundrett](https://twitter.com/clockwerks){:target="_blank"} and the rest of the Vox Media Product Team for creating such a great environment for product development.  After integrating the [OpBandit](https://angel.co/opbandit){:target="_blank"} platform into Vox's [core CMS](https://contently.com/strategist/2015/06/11/vox-chorus-and-the-rise-of-media-tech-empires/){:target="_blank"}, building out solid data infrastructure and data science teams, and an incredible amount of self-reflection, I've decided to take some time away from online publishing.
