@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/bmuller
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://findingscience.com
+  * I am bmuller (https://keybase.io/bmuller) on keybase.
+  * I have a public key with fingerprint 3653 274A 5782 9785 3F1A  C5B4 19A5 0021 3CC8 4E3B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ace76cebc8bfbe5bd3dfbc4efaa68966eb9b02e963f9a33d9d1020cd92ad867f0a",
+            "fingerprint": "3653274a578297853f1ac5b419a500213cc84e3b",
+            "host": "keybase.io",
+            "key_id": "19a500213cc84e3b",
+            "kid": "0101ace76cebc8bfbe5bd3dfbc4efaa68966eb9b02e963f9a33d9d1020cd92ad867f0a",
+            "uid": "b587979842876e623c51e32359c1e619",
+            "username": "bmuller"
+        },
+        "service": {
+            "hostname": "findingscience.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1464386948,
+    "expire_in": 157680000,
+    "prev": "de07ad3fb014f7a03253ec60cf632661663720e4a11f387667f7050d708901ab",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm9QFGUYP84SZVBBUBCBjrUJ0kt39739d9JMIg4CY3UDnoI0x+6778LmcQt3
+yynhiQHNIDnaeJMNk+CZWAnmFFLgZKCcDBkRlhw2mM04mMLoxAfxzxRhu2Tf+tj7
+5Z33eX9/nuc3z3uL5hmMYStOGlLSv311fdjgpGDYtrn/YDUmKGIVZq3GdqK5CzlF
+5FEdO2URs2I4gRM8RAwNkQBZQRIQJYhAlARoQRLP0yxH00jgBJxEHA0kjgdA5EQC
+J3EociQvsjQj4TxmxiTZVYLc5W7ZpWqygKYAyVh4imFJjmEpIGkulGAhOJ7CcZIA
+ELIWBASNWKp4dIbWnMB70FpZ0WrawzHX3n/g/+e+K+fkBIplOIZjLSTL0IgmAaQI
+BEhAcZBANMHpQA9yu/gypKPLKp1O5MZ8ZkwremWI9Fz1QZ4CtDBELQ8PlJELorVQ
+KdMEyt2KqkDFqf2Xqmq5VaerVeU6fhcSHE+VHMI/XI3gRW6PrLgwK6EhoSrr0oSF
+tgCW5iysGUO7y2U3csg6gmJoFteOboO8mqSI8CKGF4Ek4IRFYngckBRAkMahRAOS
+pgmaBgyJIwtPEBLQptYCYXAKFxmc5bRs9ag9qMKlYFbNSuVLNE2PXOLi1Uo3wnwR
++42JzxjCjIb5zxr1LTNELIz6d/W+yF7ypCD/xDr/+/7+t5rWfVnWennUFr7hR9/i
+B8uOH/sqcWPU1CHv6Lyjrdywig3HeN8GlX8GQ586prL3HlMz9tTfedFXceJ0ga/J
+D69vvULftck+38tVpzrZC8NtkRnm2YRzaybEgccXEg705jTVpRZcH2yLya61DwUr
+5o9sc5Az9fZNKdPyX8m5FXmhFuu+UKjD077dXlMLKktXGKnxjqvB5gAeG99Zt/lO
+9ymrI+9JzHKTIyv1UTQyBhOOo55AWsfdyR0rh8msgWBmbFY135D+2+r4JL59+y+j
+G0IBe+t3rbkmQ25+eOjs8j234cgr1FhTeott4YM2U1/zelNJ68a0Gx+mGL/vhVhc
+elf3mDxdYXhuNLK2O+8Tpb646GRTr6umrVFUjPSC9oxvaqt/n9jS//O5l2yTabuW
+Jr/eUIglSXE5/kuzSYvvpxaf3YoN9VcRtx5+bR533sjcYtpX1Gd/s72UGTHfglF9
+pvvhj6zeicSl8b3OM5eS313tna3edHNk7FfptcHBA9eO9OdML5CvThbGHl710UBP
+/JXBJP+OqtDRLqP1j1k3WBXeGbz5QcSalvPPn+EM9iPGofyC248bPu69+MbM6fFD
+eHL0sqy4F9z3fpq61rz3YaCxx/9O1+Hkzz/bXRP4IfL8ZT6xOCq6TrpX2MI1CktS
+F9kulnWHz6w8GMyM/hs=
+=uzN+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bmuller
+
+==================================================================
