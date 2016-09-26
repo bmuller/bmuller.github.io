@@ -3,7 +3,8 @@ layout: default
 title: categories of found science
 ---
 # Posts by Tag
-{% for cat in site.categories | sort %}
+{% assign sorted_cats = site.categories | sort %}
+{% for cat in sorted_cats %}
 {% capture tag %}{{ cat | first }}{% endcapture %}
 <a name="{{ tag }}">
 </a>
