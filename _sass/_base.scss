@@ -47,6 +47,10 @@ a.floatleft {
     float: right;
 }
 
+.floatleft {
+    float: left;
+}
+
 img.postimg {
     margin: 15px;
     padding: 1px;
@@ -297,3 +301,5 @@ table#flickr_badge_uber_wrapper {
 code.highlighter-rouge {
     background-color: #ddd;
 }
+
+.center { text-align: center; }

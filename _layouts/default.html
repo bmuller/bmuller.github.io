@@ -23,15 +23,26 @@
     </script>
     <meta property="og:site_name" content="FindingScience" />
     <meta property="og:type" content="website" />
-    {% if page.image %}<meta property="og:image" content="http://findingscience.com{{ page.image }}" />{% else %}<meta property="og:image" content="http://findingscience.com/images/glider.jpg" />{% endif %}
+    {% if page.ogimage %}
+    <meta property="og:image" content="http://findingscience.com{{ page.ogimage }}" />
+    {% elsif page.image %}
+    <meta property="og:image" content="http://findingscience.com{{ page.image }}" />
+    {% else %}
+    <meta property="og:image" content="http://findingscience.com/images/glider.jpg" />
+    {% endif %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:url" content="http://findingscience.com{{ page.url }}" />
-
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@bmuller"/>
     <meta name="twitter:domain" content="FindingScience"/>
     <meta name="twitter:creator" content="@bmuller"/>
-    {% if page.image %}<meta name="twitter:image:src" content="http://findingscience.com{{ page.image }}"/>{% else %}<meta name="twitter:image:src" content="http://findingscience.com/images/glider.jpg"/>{% endif %}
+    {% if page.ogimage %}
+    <meta name="twitter:image:src" content="http://findingscience.com{{ page.ogimage }}"/>
+    {% elsif page.image %}
+    <meta name="twitter:image:src" content="http://findingscience.com{{ page.image }}"/>
+    {% else %}
+    <meta name="twitter:image:src" content="http://findingscience.com/images/glider.jpg"/>
+    {% endif %}
     <meta name="twitter:description" content=""/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:url" content="http://findingscience.com{{ page.url }}"/>
