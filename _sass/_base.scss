@@ -39,8 +39,20 @@ tr.thead td {
     text-decoration: underline;
 }
 
+a {
+    text-decoration: none;
+    color: #1c84bf;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 a.floatleft {
     float: left;
+}
+
+.center {
+    text-align: center;
 }
 
 .floatright {
@@ -112,16 +124,24 @@ div#menu {
     font-size: 0.55em;
     margin-top: 15px;
     float: right;
-}
 
-div#menu ul {
-    list-style: none outside none;
-}
+    a {
+        color: #1c84bf;
+    }
 
-div#menu ul li {
-    display: inline;
-    padding: 0px;
-    padding-right: 15px;
+    a:hover {
+        color: #454545;
+    }
+
+    ul {
+        list-style: none outside none;
+        
+        li {
+            display: inline;
+            padding: 0px;
+            padding-right: 15px;
+        }
+    }
 }
 
 div#content, div#footer {
@@ -153,22 +173,6 @@ div#footer {
 .notdone {
     color: #550000;
     background-color: #ff9999;
-}
-
-a {
-    text-decoration: none;
-    color: #1c84bf;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-div#menu a {
-    color: #57ad68;
-}
-
-div#menu a:hover {
-    text-decoration: none;
 }
 
 h1, h2 {
@@ -301,5 +305,3 @@ table#flickr_badge_uber_wrapper {
 code.highlighter-rouge {
     background-color: #ddd;
 }
-
-.center { text-align: center; }
