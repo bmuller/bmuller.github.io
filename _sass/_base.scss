@@ -175,12 +175,9 @@ div#footer {
     background-color: #ff9999;
 }
 
-h1, h2 {
+h1 {
     color: #0785C9;
     padding: 3px 0px 3px 0px;
-}
-
-h1 {
     font-size: 1.3em;
     margin-top: 30px 0px 5px 0px;
     border-bottom: 1px solid rgba(0,0,0,0.3);
@@ -188,12 +185,22 @@ h1 {
 }
 
 h2 {
-    color: #57ad68;
+    font-size: 1.17em;
+    font-weight: bold;
     border-bottom: 1px solid rgba(0,0,0,0.1);    
     border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #57ad68;
     font-size: 1em;
     margin: 25px 0px 0px 0px;
-    padding-left: 10px;
+    padding: 3px 0px 3px 0px;
+}
+
+h3:before {
+    content: "\00BB";
+    margin-right: 6px;
 }
 
 div.postlistitem {
