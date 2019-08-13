@@ -4,7 +4,7 @@ title: "What I Read"
 date: 2019-08-12 08:44
 categories: [media]
 ---
-Based on a few requests, I've finally put together a list of what I read every week.  Let me know if I've missed anything in the comments.
+Based on a few requests, I've finally put together a list of what I read every week.  Let me know in the comments if I've missed something I should be reading.
 
 ### Newsletters
 Most of these are daily, and I tend to read all of each email.
