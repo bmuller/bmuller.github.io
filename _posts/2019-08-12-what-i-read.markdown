@@ -15,6 +15,7 @@ Most of these are daily, and I tend to read all of each email.
  * [Gary's Guide](https://www.garysguide.com/events?region=newyork)
  * [Matt Levine’s Money Stuff](http://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup)
  * [Meatspace](https://meatspace.substack.com)
+ * [New York Times Privacy Project](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html)
  * [Nieman Lab](https://www.niemanlab.org/subscribe/)
  * [PARQOR](https://parqor.us9.list-manage.com/subscribe?u=d8f4c755070e2a9fcdd762670&id=d61777d6c4)
  * [Politico Playbook](https://www.politico.com/playbook)
@@ -29,7 +30,7 @@ Most of these get a visit, most days.
  * [Drudge](https://drudgereport.com) 
  * [Foreign Policy](https://foreignpolicy.com)
  * [Hacker News](https://news.ycombinator.com)
- * [NY Times](https://nytimes.com) 
+ * [New York Times](https://nytimes.com) 
  * [Slate](https://slate.com)
  * [Vox](https://vox.com)
 
