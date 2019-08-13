@@ -10,7 +10,8 @@ Based on a few requests, I've finally put together a list of what I read every w
 Most of these are daily, and I tend to read all of each email.
 
  * [AdWeek’s "Morning Media Newsfeed"](https://www.adweek.com/newsletter-preferences/)
- * [Axios AM](https://link.axios.com/join/am-signup) 
+ * [Axios AM](https://link.axios.com/join/am-signup)
+ * [Axios Pro Rata](https://link.axios.com/join/prorata-signup)
  * [Gary's Guide](https://www.garysguide.com/events?region=newyork)
  * [Matt Levine’s Money Stuff](http://link.mail.bloombergbusiness.com/join/4wm/moneystuff-signup)
  * [Meatspace](https://meatspace.substack.com)
