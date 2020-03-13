@@ -3,6 +3,8 @@ layout: post
 title: "Stunning: Determining Your Public IP"
 date: 2014-05-17 14:14
 categories: [internet, ruby]
+redirect_from:
+  - /internet/ruby/2014/05/17/stunning:-determining-your-public-ip.html
 ---
 Programmatically fetching your public IP address (aka, internet visible IP) can be tough.  Most often, I've done something silly like fetching [whatismyip.com](http://whatismyip.com) and then parsing the page.  That introduces a pretty bad dependency.
 

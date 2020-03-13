@@ -3,6 +3,8 @@ layout: post
 title: "Kademlia: A DHT in Python"
 date: 2014-02-14 16:35
 categories: [python, kademlia, dht]
+redirect_from:
+  - /python/kademlia/dht/2014/02/14/kademlia:-a-dht-in-python.html
 ---
 
 <a href="http://en.wikipedia.org/wiki/Distributed_hash_table"><img class="postimg small floatright" src="/images/DHT_en.svg" /></a>

@@ -3,6 +3,8 @@ layout: post
 title: "Calculon: Aggregate Time Functions in ActiveRecord"
 date: 2013-04-27 15:14
 categories: [activerecord, rails, ruby, gems]
+redirect_from:
+  - /activerecord/rails/ruby/gems/2013/04/27/calculon:-aggregate-time-functions-in-activerecord.html
 ---
 <img src="/images/Calculon.png" alt="Calculon" class="postimg floatright" />
 

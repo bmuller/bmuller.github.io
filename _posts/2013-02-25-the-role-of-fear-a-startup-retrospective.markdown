@@ -3,6 +3,8 @@ layout: post
 title: "The Role of Fear: A Startup Retrospective"
 date: 2013-02-25 12:20
 categories: [livingsocial, startups, deep thoughts]
+redirect_from:
+  - /livingsocial/startups/deep%20thoughts/2013/02/25/the-role-of-fear:-a-startup-retrospective.html
 ---
 While there are plenty of emotions that can affect your psyche while at a startup, I think that fear is one of the most interesting.  Unlike passion/ego/etc., I think it is unique in that the role it plays undergoes a dramatic change over time.  While that change is decidedly gradual, the mutation is easily noticed, and is quite possibly preventable (which, I contend, is a worthy effort).
 

@@ -3,6 +3,8 @@ layout: post
 title: "Asynchronous MySQL in Python: Twistar 1.0"
 date: 2011-06-18 16:13
 categories: [python, twisted, twistar_project]
+redirect_from:
+  - /python/twisted/twistar_project/2011/06/18/asynchronous-mysql-in-python:-twistar-1.0.html
 ---
 After a few more updates and contributions, I've finally decided to release version 1.0 of [Twistar](http://findingscience.com/twistar).  The recent work and contributions have brought it in line with what I consider to be a feature rich enough library ready for a version one release.
 

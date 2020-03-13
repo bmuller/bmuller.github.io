@@ -3,6 +3,8 @@ layout: post
 title: "It's Go Time: Better Time in Golang"
 date: 2015-06-20 14:14
 categories: [golang, arrow]
+redirect_from:
+  - /golang/arrow/2015/06/20/its-go-time:-better-time-in-golang.html
 ---
 Dealing with time in [Go](http://golang.org) is a pain.  The built-in [time package](http://golang.org/pkg/time/) doesn't include much in the way of helper functions.  [Formatting time](http://golang.org/pkg/time/#Time.Format) is especially difficult; unlike many other languages in the [C-family](https://en.wikipedia.org/wiki/List_of_C-family_programming_languages), Go has no support for [`strftime`](http://man7.org/linux/man-pages/man3/strftime.3.html)-based formatting.  Instead, you have to remember a specific date (1/2 3:04:05 2006 -0700) and format that date's values in the form you'd like to mimic.  For instance, if I wanted to format a date into the format `mm/dd/yyyy HH:MM:SS`, here's what you have to do:
 

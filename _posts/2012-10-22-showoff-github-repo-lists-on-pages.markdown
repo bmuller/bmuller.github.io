@@ -3,6 +3,8 @@ layout: post
 title: "Showoff: Github Repo Lists on Pages"
 date: 2012-10-22 11:36
 categories: [ github, moonshinedevco ]
+redirect_from:
+  - /github/moonshinedevco/2012/10/22/showoff:-github-repo-lists-on-pages.html
 ---
 I was looking around for a decent way to embed github repository information in web pages but couldn't find anything.  All I wanted was the ability to show the same things that are listed for each repo on a user's homepage, but I wanted to be able to show repos from across accounts (I have code under a few different organizations).  I couldn't find anything, so I created a little Javascript library called [showoff](http://github.com/moonshinedevco/showoff).
 

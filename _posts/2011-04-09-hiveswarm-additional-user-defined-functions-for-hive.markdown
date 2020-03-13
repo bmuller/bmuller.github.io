@@ -3,6 +3,8 @@ layout: post
 title: "HiveSwarm: Additional User Defined Functions for Hive"
 date: 2011-04-09 16:17
 categories: [hive, hadoop]
+redirect_from:
+  - /hive/hadoop/2011/04/09/hiveswarm:-additional-user-defined-functions-for-hive.html
 ---
 There are a number of user defined functions that would be quite useful in Hive but that have not been created and added to the library.  Hive does provide the ability to define custom functions, but, as I've [noted before](/hadoop/hive/2011/01/07/compiling-user-defined-functions-for-hive-on-hadoop.html), the documentation is sparse and sometimes simply wrong.  For instance, the instructions for createing a user defined table generating function (found [here](http://wiki.apache.org/hadoop/Hive/DeveloperGuide/UDTF)) incorrectly show the *close* method calling *forward* which will cause an error when you try to run the function in even Hive 0.5.0.
 

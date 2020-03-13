@@ -3,6 +3,8 @@ layout: post
 title: "Bandit: An A/B Testing Alternative for Rails"
 date: 2011-11-12 14:26
 categories: [ rails, vanity, statistics, testing ]
+redirect_from:
+  - /rails/vanity/statistics/testing/2011/11/12/bandit:-a-b-testing-alternative-for-rails.html
 ---
 In a typical A/B test, two alternatives are compared to see which produces the most "conversions" (that is, desired results).  For instance, if you have a website with a big "Sign Up" button that you want visitors to click, you may wish to choose different background colors.  Under typical A/B testing guildlines, you would pick a number (say, *N*) of users for a test and show half of them one color and half of them another color.  After users are shown the button, you record the number of clicks that result from viewing each color.  Once *N* users view one of the two alternatives, a statistical test (generally categorical, like a Chi-Square Test or a G-Test) is run to determine whether or not the number of clicks (aka, "conversions") for one color were higher than the number of clicks for the other color.  This test determines whether the difference you observed was likely due simply to chance or whether the difference you saw was more likely due to an actual difference in the rate of conversion.
 

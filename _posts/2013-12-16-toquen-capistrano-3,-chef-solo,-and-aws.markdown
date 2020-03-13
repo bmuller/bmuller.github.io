@@ -3,6 +3,8 @@ layout: post
 title: "Toquen: Capistrano 3, Chef-solo, and AWS"
 date: 2013-12-16 10:52
 categories: [sysadmin, aws, capistrano, chef]
+redirect_from:
+  - /sysadmin/aws/capistrano/chef/2013/12/16/toquen:-capistrano-3,-chef-solo,-and-aws.html
 ---
 <img alt="A Toque" class="postimg small opbandit floatright" src="/images/toque.jpg" />
 

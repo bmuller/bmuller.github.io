@@ -3,6 +3,8 @@ layout: post
 title: "txque: (Real) Async Background Jobs for Python"
 date: 2015-03-21 12:40
 categories: [python, twisted, txque]
+redirect_from:
+  - /python/twisted/txque/2015/03/21/txque:-async-background-jobs-for-python.html
 ---
 There are a number of Python projects I'm working on (many of them utilizing [Twisted](http://twistedmatrix.com)) that all would benefit from the ability to enqueue background jobs for workers to chew on.  While there are a number of existing background job options for Python ([Gearman](http://gearman.org/), [RQ](http://python-rq.org/), and [Celery](http://www.celeryproject.org/) to name a few), I wanted the ability to seamlessly utilize the batteries of [Twisted](http://twistedmatrix.com).  Most importantly, I don't want a worker tied up if a job involves a lot of IO.  I want the ability to dispatch jobs asynchronously to multiple machines each running some number of multi-threaded workers that can all handle asynchronous IO.
 

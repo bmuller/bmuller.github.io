@@ -3,6 +3,8 @@ layout: post
 title: "txyam: Yet Another Memcached Twisted Client"
 date: 2012-06-09 12:51
 categories: [twisted, python, memcache]
+redirect_from:
+  - /twisted/python/memcache/2012/06/09/txyam:-yet-another-memcached-twisted-client.html
 ---
 There are a number of number of [memcached](http://memcached.org) client libraries written for [Python Twisted](http://twistedmatrix.com) (like [twisted-memcached](https://github.com/dustin/twisted-memcached), [txconnpool](https://github.com/ericflo/txconnpool), etc).  None of them did everything I wanted, though.  Here's what I needed:
 

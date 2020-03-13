@@ -3,6 +3,8 @@ layout: post
 title: "OpBandit: An Exit, and Retrospective Lessons"
 date: 2015-04-05 00:43
 categories: [opbandit, deep thoughts]
+redirect_from:
+  - /opbandit/deep%20thoughts/2015/04/05/opbandit:-an-exit.html
 ---
 [Blaine](https://twitter.com/OjoGringo) and I started [OpBandit](https://opbandit.com) back in 2012 with the idea that there was a real need for better optimization tools for online publishers.  We quit our jobs, built a company, and eventually had the pleasure of working with some of the [top](http://nytimes.com) [publishers](http://washingtonpost.com) [in](http://www.russmedia.com) [the](http://slate.com) [world](http://foreignpolicy.com).  We built a product that helped customers across seven countries serve hundreds of millions of optimized page views per month (in four languages!).  We've worked out of some of the [best real estate in the publishing world](http://www.nytimes.com/timespace/) and had the pleasure of growing close to some other [fantastic](http://getwiser.com) [startups](http://seen.co) in the media space.  It has been, without a doubt, one of the most educational experiences of my life (like an incredibly expensive, montessori style MBA).
 

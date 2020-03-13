@@ -3,6 +3,8 @@ layout: post
 title: "Gender and Data: Survey Results"
 date: 2014-12-10 13:47
 categories: [ruby]
+redirect_from:
+  - /ruby/2014/12/10/gender-and-data:-survey-results.html
 ---
 As a followup to the [post](/ruby/2014/11/17/why-im-renaming-a-gem.html) describing my thoughts around renaming the [gender_detector gem](https://github.com/bmuller/gender_detector), I wanted to release the results of the survey at the end (if you haven't read the [original post](/ruby/2014/11/17/why-im-renaming-a-gem.html), you should definitely go back to get a sense of context).
 
