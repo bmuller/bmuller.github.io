@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Science Not Found
+permalink: /404.html
 ---
 # Science Not Found
 Sorry, the science you're looking for can't be found.
