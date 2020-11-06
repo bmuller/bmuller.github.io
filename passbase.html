@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://unpkg.com/@passbase/button@v3/button.js"></script>
+  </head>
+  <body>
+    <div id="passbase-button"></div>
+    <script type="text/javascript">
+      Passbase.renderButton(
+        document.getElementById("passbase-button"),
+        "BB1EesciSBSYYCye1ocoWPs0YHnu8DMVLFGua2TrcF3C9cgiEhxdVnmJCgL0dg01",
+        {
+          onStart: () => {},
+          onError: console.error,
+          onFinish: console.log
+        }
+      );
+    </script>
+  </body>
+</html>
