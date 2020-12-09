@@ -11,6 +11,7 @@ title: Accreditation Test
   function parallelProcessComplete(result) {
     if (result.status === 'connected') {
       document.getElementById("parallel-message").innerHTML = "Thanks for sharing your status.  We'll be in touch soon."
+      Parallel.hideButton()
     } else if (result.status === 'not_authorized') {
       document.getElementById("parallel-message").innerHTML = "It looks like you canceled the process.  Please click the button again below to try again."
       Parallel.showButton()
