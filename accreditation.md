@@ -7,7 +7,7 @@ title: Accreditation Test
 <div class="parallel-login-button"></div>
 <script src="//app.parallelmarkets.com/sdk/v1/parallel.js"></script>
 <script>
-  Parallel.init({ client_id: 'qowozU04A0bjH0VTNpRJ8', api_location: 'https://demo-api.parallelmarkets.com', verbose: true });
+  Parallel.init({ client_id: 'qowozU04A0bjH0VTNpRJ8', api_location: 'https://demo-api.parallelmarkets.com', verbose: true, allowed_host: 'demo.parallelmarkets.com' });
   function parallelProcessComplete(result) {
     if (result.status === 'connected') {
       document.getElementById("parallel-message").innerHTML = "Thanks for sharing your status.  We'll be in touch soon."
