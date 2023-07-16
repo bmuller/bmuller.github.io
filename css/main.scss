@@ -6,3 +6,9 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "syntax";
 @import "base";
+
+table { float: none; border: 1px solid #ccc; width: 100%; }
+
+th { border-bottom: 1px solid #ddd; }
+
+th { padding: 10px; }
