@@ -1,5 +1,5 @@
 ---
-redirect_to: https://bmuller.wtf
+redirect_to: https://bmuller.wtf/blog/2017-04-22-collect-all-seven
 layout: post
 title: "Collect All Seven"
 date: 2017-04-22 11:39

@@ -1,5 +1,5 @@
 ---
-redirect_to: https://bmuller.wtf
+redirect_to: https://bmuller.wtf/blog/2018-10-11-raspberry-pi-home-router-vpn
 layout: post
 title: "Raspberry Pi Home Router + VPN"
 date: 2018-10-11 19:52

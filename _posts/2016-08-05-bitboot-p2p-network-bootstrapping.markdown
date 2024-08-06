@@ -1,5 +1,5 @@
 ---
-redirect_to: https://bmuller.wtf
+redirect_to: https://bmuller.wtf/blog/2016-08-05-bitboot-p2p-network-bootstrapping
 layout: post
 title: "Bitboot: P2P Network Bootstrapping"
 date: 2016-08-05 20:22

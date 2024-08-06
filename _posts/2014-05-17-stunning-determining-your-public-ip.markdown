@@ -1,5 +1,5 @@
 ---
-redirect_to: https://bmuller.wtf
+redirect_to: https://bmuller.wtf/blog/2014-05-17-stunning-determining-your-public-ip
 layout: post
 title: "Stunning: Determining Your Public IP"
 date: 2014-05-17 14:14
