@@ -1,0 +1,12 @@
+---
+layout: default
+title: Science Not Found
+permalink: /404.html
+redirect_to: https://bmuller.wtf
+---
+# Science Not Found
+Sorry, the science you're looking for can't be found.
+
+Try searching in the box above, or look at this science chosen just for you:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/SYacUaukaxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>

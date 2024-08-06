@@ -1,0 +1,10 @@
+---
+redirect_to: https://bmuller.wtf
+layout: post
+title: "The Science of Reincarnation"
+date: 2013-06-08 15:58
+categories: []
+---
+This site is called Finding Science, and boy did I find some science today.  The great thing about science is that it's always right.  I can't wait to come back as a velociraptor.
+
+<a class="opbandit" href="#"><img class="postimg medium" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/941233_618659661480538_1065427149_n.jpg" /></a>

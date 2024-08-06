@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{{ page.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Muli:400,400italic" rel="stylesheet" type="text/css" />
+    <!-- this is for the google scholar icon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="https://findingscience.com/atom.xml" />
+    <link rel="canonical" href="https://findingscience.com{{ page.url }}" />
+    <link href="/css/main.css" type="text/css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/412713f382.js"></script>
+    <meta property="og:site_name" content="FindingScience" />
+    <meta property="og:type" content="website" />
+    {% if page.ogimage %}
+    <meta property="og:image" content="https://findingscience.com{{ page.ogimage }}" />
+    {% elsif page.image %}
+    <meta property="og:image" content="https://findingscience.com{{ page.image }}" />
+    {% else %}
+    <meta property="og:image" content="https://findingscience.com/images/glider.jpg" />
+    {% endif %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="https://findingscience.com{{ page.url }}" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@bmuller"/>
+    <meta name="twitter:domain" content="FindingScience"/>
+    <meta name="twitter:creator" content="@bmuller"/>
+    {% if page.ogimage %}
+    <meta name="twitter:image:src" content="https://findingscience.com{{ page.ogimage }}"/>
+    {% elsif page.image %}
+    <meta name="twitter:image:src" content="https://findingscience.com{{ page.image }}"/>
+    {% else %}
+    <meta name="twitter:image:src" content="https://findingscience.com/images/glider.jpg"/>
+    {% endif %}
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:title" content="{{ page.title }}"/>
+    <meta name="twitter:url" content="https://findingscience.com{{ page.url }}"/>
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+	<ul>
+	  <li><a href="https://www.linkedin.com/in/bamuller" target="_blank"><i class="fa fa-linkedin fa-fw fa-lg"></i></a></li>
+	  <li><a href="https://github.com/bmuller" target="_blank"><i class="fa fa-github fa-fw fa-lg"></i></a></li>
+          <li><a href="https://instagram.com/bmuller" target="_blank"><i class="fa fa-instagram fa-fw fa-lg"></i></a></li>
+	  <li><a href="https://twitter.com/bmuller" target="_blank"><i class="fa fa-twitter fa-fw fa-lg"></i></a></li>
+          <li><a href="https://scholar.google.com/citations?user=xMH2gUMAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar ai-fw ai-lg"></i></a></li>
+	  <!--<li><a href="/about"><i class="fa fa-info fa-fw fa-lg"></i></a></li>-->
+	</ul>
+      </div>      
+      <div><a href="/">Finding Science</a></div>
+      <div id="subheader">when I grow up I want to be a</div>
+      <script type="text/javascript">
+        var subs = ["data scientist", "professional spy", "computer scientist", "taxidermist", "professional bear hunter", "code artist", "mad scientist", "funerary violinist", "thereminist", "Juggalo impersonator", "standup comedian", "beat writer"];
+        document.getElementById("subheader").innerHTML = "when I grow up I want to be a <span style='color: #000;'>" + subs[Math.floor(Math.random() * subs.length)] + "</span>";
+      </script>
+    </div>
+    <div id="content">
+      {{ content}}
+    </div>
+    <div id="footer"></div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NMWKHQ63GH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NMWKHQ63GH');
+    </script>
+  </body>
+</html>

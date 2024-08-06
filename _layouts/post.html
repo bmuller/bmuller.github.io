@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% if page.image %}<div class="post-image"><img src="{{ page.image }}" /></div>{% endif %}
+{% if page.image_credit %}<div class="post-image-credit">{{ page.image_credit }}</div>{% endif %}
+
+<h1>{{page.title}}</h1>
+<div id="date">Posted {{ page.date | date_to_string }} {% include tags.markdown %}and has <a href="{{ page.url }}#disqus_thread">Comments</a></div>
+
+{{ content }}

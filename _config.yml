@@ -1,0 +1,21 @@
+title: FindingScience
+email: bamuller@gmail.com
+description: a blog about startup tech and gallimaufry
+author: Brian Muller
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://findingscience.com"
+markdown: kramdown
+encoding: UTF-8
+sass:
+  style: compressed
+lsi: false
+safe: true
+highlighter: rouge
+incremental: false
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+include: [".well-known"]

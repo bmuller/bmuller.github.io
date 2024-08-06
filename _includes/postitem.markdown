@@ -1,0 +1,1 @@
+<li><a href="{{ post.id }}.html">{{ post.title }}</a> <span id="date">posted {{ post.date | date: "%m.%d.%Y" }}{% include tags.markdown %}</span></li>
